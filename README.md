@@ -1,1 +1,3 @@
-# ValidationForm
+Для запуска проекта использовать npm start
+
+
