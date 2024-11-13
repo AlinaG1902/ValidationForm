@@ -1,0 +1,96 @@
+body 
+  margin: 0
+  box-sizing: border-box
+  font-family: 'Cantarell','Fira Sans','Droid Sans','Helvetica Neue',sans-serif
+  
+.container 
+  width: 100%
+  height: 100%
+  
+
+form
+  width: 40%
+  height: 100%
+  display: flex
+  flex-direction: column  
+  margin: 5%
+
+  h3 
+    font-size: 30px
+    opacity: 0.8
+   
+input, select
+  margin-bottom: 20px
+  height: 50px
+  border: none
+  background-color: #D3D3D3
+  opacity: 0.5
+  border-radius: 2%
+
+::placeholder, select
+  padding: 10px
+
+.elem-inline, .elem-inline1
+  display: flex
+  justify-content: space-between
+
+.elem-inline input, elem-inline1 input, select, .date-container, .inputDate-red
+  width: 46%
+  height: 50px
+  
+button[type=submit]
+  width: 46%
+  height: 50px
+  border: none
+  border-radius: 2%
+  background-color: #3dba6ff1
+  color: #fcfcfc
+  align-self: flex-end
+
+
+button[type=button]
+  background: url('../public/images/icon-calendar.svg') no-repeat 90% 50%
+  width: 20%
+  height: 60%
+  border: none
+  float: right
+  margin: 10px
+  z-index: 3
+ 
+input[type=date]::-webkit-calendar-picker-indicator
+  display: none
+
+
+.date-container, .inputDate-red
+  background-color: #D3D3D3
+  opacity: 0.6
+  
+.error, .error-email
+  color: red
+  font-size: 12px
+  margin: 0 0 10px 0
+  
+.input-red
+  border: solid 0.5px red
+  margin: 0
+
+.elem-container
+  display: flex
+  flex-direction: column
+  width: 46%
+
+.inputDate-red input
+  margin: 0
+
+
+
+
+   
+
+
+  
+
+  
+
+
+
